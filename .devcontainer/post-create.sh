@@ -16,3 +16,8 @@ sed -i -E "s/^(plugins=\()(git)(\))/\1\2 zsh-syntax-highlighting zsh-autosuggest
 
 # Avoid git log use less
 echo -e "\nunset LESS" >>~/.zshrc
+
+# #!/bin/bash
+# echo "🚀 Starting Jekyll Server...Let's Do This!"
+# bundle install
+# bundle exec jekyll serve --livereload --force_polling

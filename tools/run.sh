@@ -3,7 +3,7 @@
 # Run jekyll serve and then launch the site
 
 prod=false
-command="bundle exec jekyll s -l"
+command="bundle exec jekyll s -l --livereload"
 host="127.0.0.1"
 
 help() {
@@ -46,6 +46,7 @@ if $prod; then
   command="JEKYLL_ENV=production $command"
 fi
 
+# Ensure `--force_polling` is always added when inside Docker
 if [ -e /proc/1/cgroup ] && grep -q docker /proc/1/cgroup; then
   command="$command --force_polling"
 fi
