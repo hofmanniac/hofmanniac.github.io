@@ -171,8 +171,8 @@ collections:
     output: true
     sort_by: order
   projects:
-    output: true # Enables page generation for collection items
-    permalink: /projects/:path/ # Defines how URLs are structured
+    output: true
+    permalink: /projects/:path/
 
 defaults:
   - scope:
