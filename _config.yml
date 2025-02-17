@@ -176,6 +176,9 @@ collections:
   culturelogue:
     output: true
     permalink: /culturelogue/:path/
+  writing:
+    output: true
+    permalink: /writing/:path/
 
 defaults:
   - scope:

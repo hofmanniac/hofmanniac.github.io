@@ -8,7 +8,7 @@ description: Books, both paper-based or audiobooks, I've read or listenened to o
 
 ## Recent
 
-- The Good Gut: Taking Control of Your Weight, Your Mood, and Your Long Term Health
+- [The Good Gut: Taking Control of Your Weight, Your Mood, and Your Long Term Health](https://www.barnesandnoble.com/w/the-good-gut-justin-sonnenburg/1120625403){:target="_blank"}
 - Metabolical: The Lure and the Lies of Processed Food, Nutrition, and Modern Medicine
 - Good Energy: The Suprising Connection Between Metabolism and Limitless Health
 - Outlive: The Science and Art of Longevity
