@@ -12,9 +12,16 @@ As I'm ramping up on how to use Jekyll and post content, I wrote a quick bash sc
 
 I tested it by creating this post. Better living through automation!
 
+*Update - Tweaked the script below to set the path directory in case you are running it from a VS Code Dev Container. It may take the file a few minutes to show up in the VS Code Explorer, once it realizes the Dev Container workspace file was added.
+
 ```bash
 
 #!/bin/bash
+
+# Get the absolute path of the script's directory (assumed to be inside _scripts/)
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")" # Move up one level to the project root
+POSTS_DIR="$PROJECT_ROOT/_posts"        # Ensure we're using the correct _posts directory
 
 # Prompt user for post details
 echo "📝 Creating a new Jekyll post..."
@@ -28,8 +35,11 @@ tags=${tags:-"jekyll, blog"}
 
 # Format date
 today=$(date +%Y-%m-%d)
-slug=$(echo "$title" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
-filename="_posts/${today}-${slug}.md"
+slug=$(echo "$title" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -d '[:punct:]')
+filename="$POSTS_DIR/${today}-${slug}.md"
+
+# Ensure _posts directory exists
+mkdir -p "$POSTS_DIR"
 
 # Check if file exists
 if [ -f "$filename" ]; then
@@ -53,5 +63,6 @@ Write your content here...
 EOF
 
 echo "✅ Created new post: $filename"
+
 
 ```
