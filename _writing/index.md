@@ -1,7 +1,7 @@
 ---
 icon: fa-solid fa-lightbulb
 order: 3
-title: Writing
+title: Life Systems
 permalink: /writing/
 ---
 

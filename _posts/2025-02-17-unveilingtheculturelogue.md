@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unveiling: The Culturelogue!"
+title: "Unveiling: The culturelogue!"
 date: 2025-02-17
 categories: [Personal]
 tags: [culturelogue, books, movies, tv, music]
@@ -10,4 +10,4 @@ I thought it would be fun to list all of the books, movies, shows, albums, whate
 
 This will take a while - but it's a start!
 
-Hop over to the [Culturelogue](/culturelogue/) to check it out!
+Hop over to the [culturelogue](/culturelogue/) to check it out!

@@ -173,6 +173,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  systems:
+    output: true
+    permalink: /systems/:path/
   culturelogue:
     output: true
     permalink: /culturelogue/:path/
