@@ -1,5 +1,5 @@
 ---
-icon: fa-solid fa-lightbulb
+icon: fa-solid fa-book
 order: 4
 title: Culturelogue
 permalink: /culturelogue/

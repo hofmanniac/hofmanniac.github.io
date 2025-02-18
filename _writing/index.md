@@ -1,8 +1,7 @@
 ---
-icon: fa-solid fa-lightbulb
-order: 3
-title: Life Systems
+title: Writing
 permalink: /writing/
+layout: page
 ---
 
 Stuff I've written. Some snippets, some fully complete stuff. Fiction, non-fiction, essays. I'm certainly not a writer but I fancy someday maybe I would be when I grow up.
