@@ -18,7 +18,7 @@ Jovan said nothing.  His eyes ached; his hands were cracked and blistered.  He w
 
 “I can’t sleep tonight, Koria.  A boy has entered into shadow and needs the Raga.” 
 
-“Where will you find Raga this time of night?”  Her voice was angry.  “The sentries are surly inside by now, and you are too old to be wandering out alone.” 
+“Where will you find Raga this time of night?”  Her voice was angry.  “The sentries are surely inside by now, and you are too old to be wandering out alone.” 
 
 Jovan looked briefly down at the dirt floor.  Had it been twenty years?  It seemed like only yesterday.  The burning.  The barking and biting.  He knew not to venture out alone at night anymore, past the city borders, into the great dark trees where unspeakable beasts hunted.  He looked at the scar on his leg, then to his disfigured hand. 
 
@@ -30,7 +30,7 @@ Jovan paused for a moment and looked up out into the night sky.
 
 “It is Banar’s boy,” he said quietly. 
 
-Koria opened her mouth to speak, but the words did not come.  He turned to see her staring back at him.  Then she sat slowly on the bed.  She closed her eyes and touched two fingers to her lips. 
+Koria opened her mouth to speak, but the words did not come.  He turned to see her staring back at him.  Then she sat up slowly on the bed.  She closed her eyes and touched two fingers to her lips. 
 
 “May Rala give you hope.” 
 

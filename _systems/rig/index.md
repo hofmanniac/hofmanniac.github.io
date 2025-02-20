@@ -3,6 +3,7 @@ title: "RIG (Routines, Ideas, Goals) System"
 description: A life management system designed to help you stay on top of routine tasks while achieving your higher level life goals.
 layout: default  # Use a custom layout if needed
 showcase: true
+showcaseNavText: I'm ready to change my life - take me there!
 permalink: /routines-ideas-goals/
 categories: [Personal]
 tags: [productivity]     # TAG names should always be lowercase

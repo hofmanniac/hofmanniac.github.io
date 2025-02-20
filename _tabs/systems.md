@@ -9,9 +9,19 @@ permalink: /systems/
   - [{{ system.title }}]({{ system.url }}): {{ system.description }}
 {% endfor %} -->
 
-<div id="post-list" class="flex-grow-1 px-xl-1">
-
 {% for system in site.systems %}
+  {% if system.showcase %}
+## {{ system.title }}
+{{ system.description}}
+
+[{{ system.showcaseNavText }}]({{ system.url }})
+<!-- <input type="button" value="{{ system.showcaseNavText }}" style="min-width:150px; float: right;" onclick="location.href='{{ system.url }}'" /> -->
+  {% endif %}
+{% endfor %}
+
+<!-- <div id="post-list" class="flex-grow-1 px-xl-1"> -->
+
+<!-- {% for system in site.systems %}
   
   {% if system.showcase %}
 
@@ -36,6 +46,6 @@ permalink: /systems/
     </article>
   {% endif %}
 
-{% endfor %}
+{% endfor %} -->
 
-</div>
+<!-- </div> -->

@@ -4,6 +4,8 @@ layout: page
 permalink: /culturelogue/books/
 type: Books
 description: Books, both paper-based or audiobooks, I've read or listenened to or are in the queue.
+icon: 📚
+navtext: Book it, Dano!
 ---
 
 ## Recent
