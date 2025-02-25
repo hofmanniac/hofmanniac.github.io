@@ -18,6 +18,6 @@ Also started reading ["The Creative Act"](https://www.barnesandnoble.com/w/the-c
 
 And finally - I'm almost finished with the original ["Don't Think of an Elephant"](https://www.barnesandnoble.com/w/dont-think-of-an-elephant-george-lakoff/1110948013?ean=2940171140052) by George Lakoff. This has been extremly eye opening as to the moral frames from conservatives that have dominated recent headlines, and the alternative frames tha progressives can offer to counteract this singular way of thinking about the world. Highly recommended. I didn't realize there was a more recent version until writing this! So looks like I've got my next audiobook picked out.
 
-Finding the time to read and for hobbies can definitely be a challenge. It's a little easier for me now with the kiddos pretty much self-sufficient and able to drive themselves, though I do find the [RIG](/_systems/rig/) system helpful to keep track of my ideas and then to start getting them priortized and on the calendar.
+Finding the time to read and for hobbies can definitely be a challenge. It's a little easier for me now with the kiddos pretty much self-sufficient and able to drive themselves, though I do find the [RIG](/routines-ideas-goals/) system helpful to keep track of my ideas and then to start getting them priortized and on the calendar.
 
 Enough for now. Today was better than yesterday. Tomorrow will be even better than today.
