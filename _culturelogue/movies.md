@@ -4,7 +4,7 @@ layout: page
 permalink: /culturelogue/movies/
 type: Movies
 description: Movies I've seen, major influences. Movies I want to see still. Quite a few classics I've never watched stil.
-icon: 📚
+icon: 🎞️
 navtext: Let's go to the cinema!
 ---
 
