@@ -37,10 +37,10 @@ These are your daily and recurring habits that keep your life running smoothly. 
 ### **2️⃣ Moods – Work With Your Energy**
 Instead of a long, inflexible to-do list, RMP groups tasks based on how you feel at any given moment.
 
-🛑 **Stressors** – Identify and address problems causing friction in your life. Or, consciously decide to let them go.  
-⚡ **Engaged** – Deep work, problem-solving, and tasks that require focus and creativity. Tasks in this category can be tagged with:
+🛑 **Stressors** – Identify the time sensitive or other important and urgent tasks.  
+⚡ **Engaged** – Deep work, problem-solving, and goals that require focus and creativity. Items in this category can be tagged with:
    - 🔥 **Fun** – Passion projects and hobbies (e.g., “🎸 Work on music album”).  
-   - 🏠 **Chores** – Home improvement or necessary life tasks (e.g., “🔧 Fix leaky faucet”).  
+   - 🏠 **Improvements** – Home improvements or other deep, long term organization tasks (e.g., “🔧 Organize closet”).  
   
 🌿 **Relax** – Low-effort, restorative tasks that recharge your energy.  
 
@@ -54,7 +54,7 @@ Long-term goals and complex tasks don’t belong in your daily to-do list. Inste
 📂 Each Project contains:
 - **A high-level goal** (e.g., "Build an RPG game")
 - **Actionable tasks** (e.g., "Design character sprites," "Write storyline")
-- **Tasks assigned to a Mood for execution** (e.g., "Game development" goes under *Engaged - 🔥 Fun*)
+- **Projects assigned to a Mood for execution** (e.g., "Game development" goes under *Engaged - 🔥 Fun*)
 
 📌 *Why it works:* You avoid overwhelming yourself with massive goals—Projects keep them manageable and actionable.
 
@@ -76,7 +76,7 @@ RMP is designed to be **self-maintaining**, but a quick **weekly review** keeps 
 
 ✅ **Review Routines** – Are habits sticking? Do they need adjustments?  
 ✅ **Refresh Moods** – Resolve completed stressors, reprioritize tasks.  
-✅ **Assess Projects** – What deserves focus this week? Move key tasks into Moods for execution.
+✅ **Assess Projects** – What deserves focus this week? Prioritize tasks within projects.
 
 📌 *Why it works:* A 10-minute check-in keeps the system running smoothly and prevents overwhelm.
 
