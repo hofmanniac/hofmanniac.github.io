@@ -14,3 +14,9 @@ permalink: /projects/
 Stuff I've written. Some snippets, some fully complete stuff. Fiction, non-fiction, essays. I'm certainly not a writer but I fancy someday maybe I would be when I grow up.
 
 [I can't wait! Show me more!](/writing/)
+
+## Games
+
+{% for item in site.games %}
+  - [{{ item.title }}]({{ item.url }}): {{ item.description }}
+{% endfor %}

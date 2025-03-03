@@ -182,6 +182,9 @@ collections:
   writing:
     output: true
     permalink: /writing/:path/
+  games:
+    output: true
+    permalink: /games/:path/
 
 defaults:
   - scope:
