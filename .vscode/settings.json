@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^jekyll new \\. --force$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
