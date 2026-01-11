@@ -18,21 +18,50 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Jeremy Hofmann
+tagline: Superficial Intelligence # it will display as the subtitle
+email: jeremy.hofmann@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Personal, professional (but mostly personal), and project-based blog of Jeremy Hofmann.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hofmanniac.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
 github_username:  hofmanniac
+linkedin_username: jeremy-hofmann-25a2722
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  media:
+    output: true
+    permalink: /media/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "media"
+    values:
+      layout: "page"
+
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+  - posts.md
+  - projects.md
+  - experiences.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

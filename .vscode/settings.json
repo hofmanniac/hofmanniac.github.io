@@ -4,5 +4,7 @@
             "approve": true,
             "matchCommandLine": true
         }
-    }
+    },
+    "css.validate": false,
+    "scss.validate": false
 }

@@ -1,0 +1,11 @@
+# Only add entries here for types that don't pluralize by adding 's'
+# If not listed here, the type name will automatically get an 's' added
+
+software:
+  plural: "Software"
+  
+writing:
+  plural: "Writing"
+  
+music:
+  plural: "Music"

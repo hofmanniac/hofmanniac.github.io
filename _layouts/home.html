@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- assign featured_projects = site.projects | where: "featured", true -%}
+  {%- assign featured_books = site.books | where: "featured", true -%}
+  {%- assign featured_movies = site.movies | where: "featured", true -%}
+  {%- assign has_featured = false -%}
+  {%- if featured_projects.size > 0 or featured_books.size > 0 or featured_movies.size > 0 -%}
+    {%- assign has_featured = true -%}
+  {%- endif -%}
+
+  {%- if has_featured -%}
+  <h2 class="section-heading">Featured</h2>
+  <div class="card-grid">
+    {%- for item in featured_projects limit:3 -%}
+      <div class="card">
+        <a href="{{ item.url | relative_url }}" class="card-link">
+          <p class="card-type">{{ item.type | upcase | default: "PROJECT" }}</p>
+          <h2 class="card-title">{{ item.title }}</h2>
+          <p class="card-excerpt">{{ item.excerpt | strip_html | truncate: 150 }}</p>
+        </a>
+      </div>
+    {%- endfor -%}
+    {%- for item in featured_books limit:3 -%}
+      <div class="card">
+        <a href="{{ item.url | relative_url }}" class="card-link">
+          <p class="card-type">BOOK</p>
+          <h2 class="card-title">{{ item.title }}</h2>
+          <p class="card-excerpt">{{ item.excerpt | strip_html | truncate: 150 }}</p>
+        </a>
+      </div>
+    {%- endfor -%}
+    {%- for item in featured_movies limit:3 -%}
+      <div class="card">
+        <a href="{{ item.url | relative_url }}" class="card-link">
+          <p class="card-type">MOVIE</p>
+          <h2 class="card-title">{{ item.title }}</h2>
+          <p class="card-excerpt">{{ item.excerpt | strip_html | truncate: 150 }}</p>
+        </a>
+      </div>
+    {%- endfor -%}
+  </div>
+  {%- endif -%}
+
+  {%- if site.posts.size > 0 -%}
+  <h2 class="section-heading">Recent Posts</h2>
+  <div class="card-grid">
+    {%- for post in site.posts limit:6 -%}
+      <div class="card">
+        <a href="{{ post.url | relative_url }}" class="card-link">
+          <p class="card-date"><span class="card-type-inline">POST</span> · {{ post.date | date: "%B %d, %Y" }}</p>
+          <h2 class="card-title">{{ post.title | escape }}</h2>
+          <p class="card-excerpt">
+            {%- if post.excerpt -%}
+              {{ post.excerpt | strip_html | truncate: 150 }}
+            {%- else -%}
+              {{ post.content | strip_html | truncate: 150 }}
+            {%- endif -%}
+          </p>
+        </a>
+      </div>
+    {%- endfor -%}
+  </div>
+  {%- endif -%}
+
+</div>
