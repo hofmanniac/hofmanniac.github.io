@@ -478,3 +478,15 @@ h2.card-title {
     flex: 1.5;
   }
 }
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
