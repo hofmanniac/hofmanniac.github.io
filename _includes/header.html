@@ -5,10 +5,13 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     
     <div class="site-title-wrapper">
-      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-      {%- if site.tagline -%}
-        <p class="site-tagline">{{ site.tagline | escape }}</p>
-      {%- endif -%}
+      <img src="{{ "/assets/imgs/profile.jpg" | relative_url }}" alt="Profile" class="profile-pic" />
+      <div class="title-tagline-wrapper">
+        <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+        {%- if site.tagline -%}
+          <p class="site-tagline">{{ site.tagline | escape }}</p>
+        {%- endif -%}
+      </div>
     </div>
 
     {%- if page_paths -%}

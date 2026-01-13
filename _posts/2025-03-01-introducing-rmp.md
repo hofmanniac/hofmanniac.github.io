@@ -10,4 +10,4 @@ I'm a productivity nerd. Over the past few ~~years~~ decades I've tried a number
 
 I found that with any system, you have to take it and "make it your own". So I did that! RMP (Routines, Moods, Projects) is my own personal productivity / life satisfaction system based on a number of the other systems I've used over the years. I think it's pretty flexible, easy to set up, and easy to maintain.
 
-If you're interested, head on over to [Routines, Moods, Projects](/routines-moods-projects/) to learn more!
+If you're interested, head on over to [Routines, Moods, Projects](/systems/rmp/) to learn more!

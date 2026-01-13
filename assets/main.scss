@@ -43,6 +43,21 @@
   flex: 1;
 }
 
+.profile-pic {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #63b3ed;
+}
+
+.title-tagline-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex: 1;
+}
+
 .site-title {
   font-size: 1.75rem;
   font-weight: 700;
@@ -76,11 +91,15 @@
   }
   
   .site-title-wrapper {
+    gap: 1rem;
+    width: 100%;
+    padding-right: 60px;
+  }
+  
+  .title-tagline-wrapper {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.25rem;
-    width: 100%;
-    padding-right: 60px;
   }
   
   .site-tagline {

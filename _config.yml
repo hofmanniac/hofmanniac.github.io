@@ -41,6 +41,9 @@ collections:
   media:
     output: true
     permalink: /media/:name/
+  systems:
+    output: true
+    permalink: /systems/:name/
 
 # Defaults
 defaults:
@@ -54,6 +57,11 @@ defaults:
       type: "media"
     values:
       layout: "page"
+  - scope:
+      path: ""
+      type: "systems"
+    values:
+      layout: "page"
 
 # Navigation
 header_pages:
@@ -61,6 +69,7 @@ header_pages:
   - about.md
   - posts.md
   - projects.md
+  - systems.md
   - experiences.md
 
 # Exclude from processing.
