@@ -1,9 +1,10 @@
 ---
+layout: project
 title: Skies of Chaos
 excerpt: A fast-paced Steampunk RPG card game where inventors, spies, and airship captains battle in a world of clockwork chaos. Quick to learn, chaotic to master!
 type: game
 category: card-game
-featured: true
+featured: false
 tags: [steampunk, card-game, tabletop, rpg, work-in-progress]
 status: in-progress
 ---

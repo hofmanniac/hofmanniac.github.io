@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<article class="post-container">
+  <div class="post-main-column">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+      {%- if page.category -%}
+      <p class="post-meta">
+        <span class="project-badge category-badge">{{ page.category | upcase }}</span>
+      </p>
+      {%- endif -%}
+    </header>
+
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </div>
+
+  <aside class="post-sidebar">
+    <div class="related-posts-container">
+      <h3 class="related-posts-title">Other Systems</h3>
+      
+      {%- assign other_systems = site.systems | where_exp: "item", "item.url != page.url" -%}
+
+      {%- if other_systems.size > 0 -%}
+        <div class="related-posts-list">
+          {%- for system in other_systems limit: 10 -%}
+            <a href="{{ system.url | relative_url }}" class="related-post-card">
+              {%- if system.category -%}
+                <div class="related-post-date">{{ system.category | upcase }}</div>
+              {%- endif -%}
+              <h4 class="related-post-title">{{ system.title }}</h4>
+              {%- if system.description -%}
+                <p class="related-post-excerpt">{{ system.description | strip_html | truncate: 80 }}</p>
+              {%- endif -%}
+            </a>
+          {%- endfor -%}
+        </div>
+      {%- else -%}
+        <p class="no-related-posts">No other systems available.</p>
+      {%- endif -%}
+    </div>
+  </aside>
+</article>

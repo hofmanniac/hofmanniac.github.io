@@ -1,10 +1,11 @@
 ---
+layout: project
 title: "Jovan"
 excerpt: A fantasy story snippet about a priest venturing into dangerous territory to save a dying boy. Written in the early 2000s as a writing exercise.
 type: writing
 category: fiction
 featured: false
-tags: [fantasy, short story, early work]
+tags: [writing]
 ---
 
 I wrote this, I think back at the turn of the century? Ha - no joke, probably early 2000's. I remember my goal was just to start writing something and see how far I could get. 

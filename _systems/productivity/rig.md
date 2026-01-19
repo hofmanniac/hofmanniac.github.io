@@ -1,4 +1,5 @@
 ---
+layout: system
 title: "RIG (Routines, Ideas, Goals) System"
 description: A life management system designed to help you stay on top of routine tasks while achieving your higher level life goals.
 category: productivity

@@ -1,10 +1,11 @@
 ---
+layout: project
 title: "Creative Writing Snippets"
 excerpt: A collection of smaller story fragments and creative writing experiments from my digital archives, including mind control, sci-fi, and fantasy themes.
 type: writing
 category: fiction
 featured: false
-tags: [snippets, short fiction, experiments]
+tags: [writing]
 ---
 
 These are a bunch of smaller snippets I found lurking in my digital collection. Now unleashed on the world.

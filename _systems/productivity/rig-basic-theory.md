@@ -1,4 +1,5 @@
 ---
+layout: system
 title: "RIG: The Basic Theory"
 description: The basic ideas behind RIG and how they fit together.
 category: productivity

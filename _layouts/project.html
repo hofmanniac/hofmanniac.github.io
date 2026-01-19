@@ -1,0 +1,87 @@
+---
+layout: default
+---
+
+<article class="post-container">
+  <div class="post-main-column">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+      {%- if page.type or page.category or page.status -%}
+      <p class="post-meta">
+        {%- if page.type -%}
+          <span class="project-badge type-badge">{{ page.type | upcase }}</span>
+        {%- endif -%}
+        {%- if page.category -%}
+          <span class="project-badge category-badge">{{ page.category }}</span>
+        {%- endif -%}
+        {%- if page.status -%}
+          <span class="project-badge status-badge">{{ page.status }}</span>
+        {%- endif -%}
+      </p>
+      {%- endif -%}
+      {%- if page.tags.size > 0 -%}
+      <div class="post-tags">
+        {%- for tag in page.tags -%}
+          <span class="tag">{{ tag }}</span>
+        {%- endfor -%}
+      </div>
+      {%- endif -%}
+    </header>
+
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </div>
+
+  <aside class="post-sidebar">
+    <div class="related-posts-container">
+      <h3 class="related-posts-title">Related Projects</h3>
+      
+      {%- assign related_projects = "" | split: "" -%}
+      {%- assign max_related = 5 -%}
+      
+      {%- if page.tags.size > 0 -%}
+        {%- for project in site.projects -%}
+          {%- if project.url != page.url -%}
+            {%- assign common_tags = 0 -%}
+            {%- for tag in project.tags -%}
+              {%- if page.tags contains tag -%}
+                {%- assign common_tags = common_tags | plus: 1 -%}
+              {%- endif -%}
+            {%- endfor -%}
+            
+            {%- if common_tags > 0 -%}
+              {%- assign related_projects = related_projects | push: project -%}
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+
+      {%- if related_projects.size > 0 -%}
+        <div class="related-posts-list">
+          {%- for project in related_projects limit: max_related -%}
+            <a href="{{ project.url | relative_url }}" class="related-post-card">
+              {%- if project.type -%}
+                <div class="related-post-date">{{ project.type | upcase }}</div>
+              {%- endif -%}
+              <h4 class="related-post-title">{{ project.title }}</h4>
+              {%- if project.tags.size > 0 -%}
+                <div class="related-post-tags">
+                  {%- for tag in project.tags limit: 3 -%}
+                    {%- if page.tags contains tag -%}
+                      <span class="mini-tag matched">{{ tag }}</span>
+                    {%- else -%}
+                      <span class="mini-tag">{{ tag }}</span>
+                    {%- endif -%}
+                  {%- endfor -%}
+                </div>
+              {%- endif -%}
+            </a>
+          {%- endfor -%}
+        </div>
+      {%- else -%}
+        <p class="no-related-posts">No related projects found.</p>
+      {%- endif -%}
+    </div>
+  </aside>
+</article>
