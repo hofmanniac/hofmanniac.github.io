@@ -11,7 +11,7 @@ status: in-progress
 
 # Nova - AI Agentic Framework for Personal Productivity
 
-## Overview!
+## Overview
 
 Nova is a lightweight, low-dependency AI agent framework combined with a file-based knowledge management system. Built with Python and Svelte, it provides a flexible foundation for creating intelligent agents that can reason, use tools, and manage personal knowledge bases.
 
